@@ -1,6 +1,7 @@
 import FirstSection from "../components/FirstSection"
 import NavbarMobile from "../components/mobile/NavbarMobile"
 import Navbar from "../components/Navbar"
+import SecondSection from "../components/SecondSection"
 
 const LayoutDefault = () => {
 
@@ -12,6 +13,9 @@ const LayoutDefault = () => {
   
             {/* FirstSection */}
             <FirstSection />
+
+            {/* SecondSection */}
+            <SecondSection />
 
         </div>
     )

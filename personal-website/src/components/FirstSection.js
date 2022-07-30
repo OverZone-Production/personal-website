@@ -1,5 +1,5 @@
 import mmmBG from "../assets/image/mmm.jpg";
-import mockup from "../assets/image/mockup.jpeg"
+import mockup from "../assets/image/deco.jpg"
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 const FirstSection = () => {
@@ -34,8 +34,8 @@ const FirstSection = () => {
         </div>
 
         {/* Product Image */}
-        <div className="col-2 pt-16">
-          <img className="w-96 rounded-xl border border-2 border-b-8 border-neutral-500 shadow-2xl shadow-neutral-500 hover:-translate-y-4 duration-500" src={mockup} alt="" />
+        <div className="col-2 pt-5">
+          <img className="w-96 rounded-md border border-2 border-b-8 border-neutral-500 shadow-2xl shadow-neutral-500 hover:-translate-y-4 duration-500" src={mockup} alt="" />
         </div>
       </div>
     </>
